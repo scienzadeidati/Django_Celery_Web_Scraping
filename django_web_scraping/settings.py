@@ -52,7 +52,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'django_web_scraping_example.urls'
+ROOT_URLCONF = 'django_web_scraping.urls'
 
 TEMPLATES = [
     {
@@ -70,7 +70,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'django_web_scraping_example.wsgi.application'
+WSGI_APPLICATION = 'django_web_scraping.wsgi.application'
 
 
 # Database
